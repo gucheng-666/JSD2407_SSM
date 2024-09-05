@@ -1,13 +1,13 @@
-package com.Demo4;
+package com.Test;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("winner")
-public class Sweater implements Clothes{
+@Component("Hamburger")
+public class Hamburger implements food{
     @Override
     @Qualifier
     public String toString() {
-        return "毛衣";
+        return "汉堡包";
     }
 }

@@ -1,17 +1,16 @@
-package com.Demo4;
+package com.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Person {
+public class Student {
     @Autowired
-    @Qualifier("winner")
-//    private String shirt;
-    private Clothes clothes;
+    @Qualifier("Hamburger")
+    private food food;
     @Override
     public String toString() {
-        return "Person [clothes=" + clothes + "]";
+        return "Student [food=" + food + "]";
     }
 }

@@ -1,4 +1,4 @@
-package com.Demo4;
+package com.Demo6;
 
 import org.springframework.stereotype.Component;
 
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 public class Shirt implements Clothes{
     @Override
     public String toString() {
-        return "T恤";
-
+        return "衬衫";
     }
 }
